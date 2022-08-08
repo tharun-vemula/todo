@@ -1,7 +1,7 @@
 const addForm = document.querySelector('.add')
 const list = document.querySelector('.todos')
 const search = document.querySelector('.search input')
-const URL = 'http://w3dev-todo.herokuapp.com/'
+const URL = 'https://w3dev-todo.herokuapp.com'
 
 const generateTemplate = (item) => {
     const html = `
